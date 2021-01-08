@@ -9,6 +9,7 @@ import NoteTaker from './NoteTaker.png';
 import table from './table.png';
 import Weather from './Weather.png';
 import UserDirectory from './UserDirectory.png';
+import arrow2 from './arrow2.gif';
 
 
 class Projects extends Component {
@@ -21,9 +22,14 @@ class Projects extends Component {
 
     if (this.state.activeTab === 0) {
       return (
+        
         <div className="projects-grid">
+                  <h5 id="a"> Here are six of my projects that I worked on. Two buttons below each project are provided; demo and GitHub Repo</h5>
+          <br></br>
+          <img id="img" src={arrow2} alt="arrow"/>
+
           {/* First Project */}
-          <Card shadow={5} style={{ minWidth: '800px', margin: 'auto', display: 'auto' }}>
+          <Card shadow={5} style={{margin: 'auto', maxWidth:'100%', width: '700px'}}>
             <CardTitle><img src={BudgetTracker} alt="budget tracker app" height="100%" width="100%" /></CardTitle>
             <CardText style={{ color: 'black', textAlign: 'left' }}>
               <h3>Budget Tracker</h3>
@@ -41,7 +47,7 @@ class Projects extends Component {
           <br></br>
 
           {/* Second Project */}
-          <Card shadow={5} style={{ minWidth: '800px', margin: 'auto' }}>
+          <Card shadow={5} style={{margin: 'auto', maxWidth:'100%', width: '700px'}}>
             <CardTitle><img src={FitnessTracker} alt="Fitness tracker app" height="100%" width="100%" /></CardTitle>
             <CardText style={{ color: 'black', textAlign: 'left' }}>
               <h3>Fitness Tracker</h3>
@@ -59,7 +65,7 @@ class Projects extends Component {
           <br></br>
 
           {/* Third Project */}
-          <Card shadow={5} style={{ minWidth: '800px', margin: 'auto' }}>
+          <Card shadow={5} style={{margin: 'auto', maxWidth:'100%', width: '700px'}}>
             <CardTitle><img src={NoteTaker} alt="Note Taker App" height="100%" width="100%" /></CardTitle>
             <CardText style={{ color: 'black', textAlign: 'left' }}>
               <h3>Note Taker</h3>
@@ -77,7 +83,7 @@ class Projects extends Component {
           <br></br>
 
           {/* Fourth Project */}
-          <Card shadow={5} style={{ minWidth: '800px', margin: 'auto' }}>
+          <Card shadow={5} style={{margin: 'auto', maxWidth:'100%', width: '700px'}}>
             <CardTitle><img src={table} alt="scheduler app" height="100%" width="100%" /></CardTitle>
             <CardText style={{ color: 'black', textAlign: 'left' }}>
               <h3>Work Day Scheduler</h3>
@@ -95,7 +101,7 @@ class Projects extends Component {
           <br></br>
 
           {/* Fifth Project */}
-          <Card shadow={5} style={{ minWidth: '800px', margin: 'auto' }}>
+          <Card shadow={5} style={{margin: 'auto', maxWidth:'100%', width: '700px'}}>
             <CardTitle><img src={UserDirectory} alt="user directory app" height="100%px" width="100%px" /></CardTitle>
             <CardText style={{ color: 'black', textAlign: 'left' }}>
               <h3>User Directory</h3>
@@ -113,7 +119,7 @@ class Projects extends Component {
           <br></br>
 
           {/* Sixth Project */}
-          <Card shadow={5} style={{ minWidth: '800px', margin: 'auto' }}>
+          <Card shadow={5} style={{margin: 'auto', maxWidth:'100%', width: '700px'}}>
             <CardTitle><img src={Weather} alt="weather dashboard app" height="100%px" width="100%px" /></CardTitle>
             <CardText style={{ color: 'black', textAlign: 'left' }}>
               <h3>Weather Dashboard</h3>
