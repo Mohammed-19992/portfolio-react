@@ -38,10 +38,11 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
 }
 
 .contact-grid {
+  margin: auto;
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: auto;
   background: white;
   color: black;
   margin-bottom: 20px;
@@ -81,10 +82,11 @@ border-radius: 12px;
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  padding-top: 10px;
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 30px;
   font-weight: bold;
   color: white;
 }
@@ -106,10 +108,11 @@ border-radius: 12px;
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  padding: 10px;
 }
 
 .social-links i {
   color: white;
   font-size: 5em;
-  padding: 8px;
+  padding: 10px;
 }
