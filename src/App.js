@@ -13,18 +13,18 @@ class App extends Component {
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/portfolio-react">My Portfolio</Link>} scroll>
             <Navigation>
-                <Link to="./commponents/resume">My Resume</Link>
-                <Link to="./commponents/aboutme">About Me</Link>
-                <Link to="./commponents/projects">My Projects</Link>
-                <Link to="./commponents/contact">Contact Me</Link>
+                <Link to="./resume">My Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">My Projects</Link>
+                <Link to="/contact">Contact Me</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/portfolio-react">My Portfolio</Link>}>
             <Navigation>
-              <Link to="./commponents/resume">My Resume</Link>
-              <Link to="./commponents/aboutme">About Me</Link>
-              <Link to="./commponents/projects">My Projects</Link>
-              <Link to="./commponents/contact">Contact Me</Link>
+              <Link to="/resume">My Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">My Projects</Link>
+              <Link to="/contact">Contact Me</Link>
             </Navigation>
         </Drawer>
         <Content>
