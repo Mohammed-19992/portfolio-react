@@ -12,7 +12,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Mohammed Arafat</h2>
             <img id="img" src={Mohammed} style={{height: '250px', width: '250px'}} alt="Mohammed"/>
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>ront-end web developer with demonstrated problem-solving skills looking to join the industry that will shape the future</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Front-end web developer with demonstrated problem-solving skills looking to join the industry that will shape the future</p>
 
           </Cell>
           <Cell col={6}>
