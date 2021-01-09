@@ -24,7 +24,7 @@ class Projects extends Component {
       return (
         
         <div className="projects-grid">
-                  <h5 id="a"> Here are six of my projects that I worked on. Two buttons below each project are provided; demo and GitHub Repo</h5>
+                  <h5 id="a">Check out six of my recent projects at the following links</h5>
           <br></br>
           <img id="img" src={arrow2} alt="arrow"/>
 
